@@ -1,6 +1,5 @@
 CC = g++ -O3 -lm -std=c++11
 
-#SRCS = ../*.cpp
 RO_SRCS = ./*.cpp
 
 clique_find:
