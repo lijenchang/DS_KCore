@@ -3,7 +3,7 @@ CC = g++ -O3 -lm -std=c++11
 #SRCS = ../*.cpp
 RO_SRCS = ./*.cpp
 
-clique_find:
+find_coreness:
 	$(CC) -o $@ $(RO_SRCS)
 
 
@@ -14,7 +14,7 @@ clique_find:
 
 clean:
 ifeq ($(OS),Windows_NT)
-	del clique_find.exe *.o
+	del find_coreness.exe *.o
 else
-	rm clique_find *.o
+	rm find_coreness *.o
 endif
