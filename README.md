@@ -6,7 +6,7 @@ $ make
 ```
 ## Running
 ```
-$ ./find_coreness <input_file_name> <number_of_vertices> k
+$ ./find_coreness <input_file_name> <number_of_vertices> <k>
 ```
 Example:
 ```
